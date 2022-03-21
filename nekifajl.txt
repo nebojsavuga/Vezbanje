@@ -9,3 +9,5 @@ git rm imeFajla
 git restore imeFajla
 
 git reset HEAD imeFajla
+
+.gitignore --> navodimo koje fajlove da ne dodajemo sa add. i tako to
