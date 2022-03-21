@@ -25,3 +25,5 @@ git commit --amend --> dopuna prethodnog commita novim izmenama
 
 git checkout -- nazivFajla --> vracanje u unmodified stanje
 
+git checkout <hash> --> preuzimanje prethodne izmene, kad uradimo git log uzmemo hesh i pasteujemo ga ovde
+                    --> vracamo lokalni repozitorijum u stanje u kom je nekad bio
