@@ -1,0 +1,11 @@
+GIT BASICS
+
+git status
+git commit -m "" -m ""
+git push origin branch_name
+git add .
+git add filename
+git rm imeFajla
+git restore imeFajla
+
+git reset HEAD imeFajla
