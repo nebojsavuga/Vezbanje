@@ -7,6 +7,7 @@ git add .
 git add filename
 git rm imeFajla
 git restore imeFajla
+git log  istorija repozitorijuma
 
 git reset HEAD imeFajla
 
@@ -19,3 +20,8 @@ git reset HEAD imeFajla
 css/**/*.css --> ignorise sve css datoteke bilo gde u css folderu
 
 log/ --> ignorise sve datoteke u log folderu 
+
+git commit --amend --> dopuna prethodnog commita novim izmenama
+
+git checkout -- nazivFajla --> vracanje u unmodified stanje
+
