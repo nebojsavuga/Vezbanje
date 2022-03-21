@@ -11,3 +11,11 @@ git restore imeFajla
 git reset HEAD imeFajla
 
 .gitignore --> navodimo koje fajlove da ne dodajemo sa add. i tako to
+
+*.txt --> ignorise sve txt datoteke
+!nekiFajl.txt --> ignorise sve tekst osim ovog fajla 
+
+
+css/**/*.css --> ignorise sve css datoteke bilo gde u css folderu
+
+log/ --> ignorise sve datoteke u log folderu 
