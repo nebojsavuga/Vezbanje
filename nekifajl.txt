@@ -5,6 +5,7 @@ git commit -m "" -m ""
 git push origin branch_name
 git add .
 git add filename
+git commit -am "poruka" --> dodaje i komituje u isto vreme, ali samo fajlove koji su novomodifikovani, a ne tek kreirani
 git rm imeFajla
 git restore imeFajla
 git log  istorija repozitorijuma
