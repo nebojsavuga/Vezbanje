@@ -31,3 +31,5 @@ git checkout <hash> --> preuzimanje prethodne izmene, kad uradimo git log uzmemo
 git checkout -b feature --> kreiranje novog brancha
 
 got checkout branchName --> prebacivanje iz brancha u branch
+
+neka razlika
