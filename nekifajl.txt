@@ -27,3 +27,7 @@ git checkout -- nazivFajla --> vracanje u unmodified stanje
 
 git checkout <hash> --> preuzimanje prethodne izmene, kad uradimo git log uzmemo hesh i pasteujemo ga ovde
                     --> vracamo lokalni repozitorijum u stanje u kom je nekad bio
+
+git checkout -b feature --> kreiranje novog brancha
+
+got checkout branchName --> prebacivanje iz brancha u branch
