@@ -35,4 +35,6 @@ got checkout branchName --> prebacivanje iz brancha u branch
 
 git branch -d imeBrancha --> brise taj branch
 
+git merge drugaGrana --> spajanje trenutne grane sa drugom
+
 neka razlika
