@@ -32,4 +32,6 @@ git checkout -b feature --> kreiranje novog brancha
 
 got checkout branchName --> prebacivanje iz brancha u branch
 
+git branch -d imeBrancha --> brise taj branch
+
 neka razlika
