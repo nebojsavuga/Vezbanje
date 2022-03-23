@@ -4,6 +4,8 @@ namespace calculatorMain{
         static int saberiBroj(int prvi, int drugi){return prvi + drugi;}
         static int oduzmiBroj(int prvi, int drugi){return prvi - drugi;}
 
+        static int mnoziBroj(int prvi, int drugi){return prvi * drugi;}
+        
         static void Main(string[] args){
             while(true){
                 string text;
