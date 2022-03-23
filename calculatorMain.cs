@@ -11,6 +11,14 @@ namespace calculatorMain{
             else return prvi/drugi;
 
         }
+        static void printHello(){Console.WriteLine("Hello World");}
+        static async int naStepen(int broj, int stepen){
+            int broj = 1;
+            for(int i =0;i<stepen;i++){
+                broj *= broj;
+            }
+            return broj;
+        }
         static void Main(string[] args){
             while(true){
                 string text;
