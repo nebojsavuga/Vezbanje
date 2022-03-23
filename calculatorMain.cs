@@ -20,6 +20,7 @@ namespace calculatorMain{
             return broj;
         }
         static string sabiranjeStringova(string s1, string s2){ return s1 + s2;}
+        static void mnozenjeStringova(){Console.WriteLine("Stringovi su pomnozeni";)}
         static void Main(string[] args){
             while(true){
                 string text;
