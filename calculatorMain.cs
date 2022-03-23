@@ -4,16 +4,13 @@ namespace calculatorMain{
         static int saberiBroj(int prvi, int drugi){return prvi + drugi;}
         static int oduzmiBroj(int prvi, int drugi){return prvi - drugi;}
 
-<<<<<<< HEAD
         static int mnoziBroj(int prvi, int drugi){return prvi * drugi;}
         
-=======
         static float podeliBroj(int prvi, int drugi){
             if(drugi == 0) return -1;
             else return prvi/drugi;
 
         }
->>>>>>> feature/division
         static void Main(string[] args){
             while(true){
                 string text;
