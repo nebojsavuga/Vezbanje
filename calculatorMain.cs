@@ -2,6 +2,8 @@ namespace calculatorMain{
 
     class Program{
         static int saberiBroj(int prvi, int drugi){return prvi + drugi;}
+        static int oduzmiBroj(int prvi, int drugi){return prvi - drugi;}
+
         static void Main(string[] args){
             while(true){
                 string text;
@@ -14,7 +16,8 @@ namespace calculatorMain{
                 int drugiBroj = Convert.ToInt32(data[2]);
                 char znak = data[1];
                 if(znak == '+')Console.WriteLine(saberiBroj(prviBroj, drugiBroj));
-                
+                else if(znak == '-')Console.WriteLine(oduzmiBroj(prviBroj, drugiBroj));
+
             }
 
 
