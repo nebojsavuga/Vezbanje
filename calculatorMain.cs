@@ -19,6 +19,7 @@ namespace calculatorMain{
             }
             return broj;
         }
+        static void mnozenjeStringova(){Console.WriteLine("Stringovi su pomnozeni";)}
         static void Main(string[] args){
             while(true){
                 string text;
